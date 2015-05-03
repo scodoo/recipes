@@ -11,3 +11,11 @@ The working directory may contain other files.
 
 The staging area allows an area to easily undo your changes.
 
+----------------------------------------------------------------------
+
+Q. How can you use the staging area to make sure you have one commit per logical change?
+
+git diff --staged
+
+shows you the difference between what you have staged and what is in the repository.
+Handy to see if there is anything staged that isn't logically grouped.
