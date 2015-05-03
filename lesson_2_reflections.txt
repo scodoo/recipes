@@ -19,3 +19,23 @@ git diff --staged
 
 shows you the difference between what you have staged and what is in the repository.
 Handy to see if there is anything staged that isn't logically grouped.
+
+----------------------------------------------------------------------
+
+Q. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches are great for any development that isn't obviously on the master branch; or changes that are going
+to take a while and you want to keep the master pristine so you can switch to it at any time to fix a bug.
+
+----------------------------------------------------------------------
+
+git checkout -b {new-branch-game}
+  shortcut for git branch {new-branch-name}
+               git checkout {new-branch-name}
+
+----------------------------------------------------------------------
+
+Q. How do the diagrams help you visualize the branch structure?
+
+Um, by showing the branching visually.
+
