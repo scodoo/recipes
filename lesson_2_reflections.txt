@@ -39,3 +39,10 @@ Q. How do the diagrams help you visualize the branch structure?
 
 Um, by showing the branching visually.
 
+----------------------------------------------------------------------
+
+git show
+  -- shows the code changes for each commit
+
+----------------------------------------------------------------------
+
